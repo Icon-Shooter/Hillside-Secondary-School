@@ -602,6 +602,23 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+@media (max-width: 575px) {
+   .about .container{
+    margin: 0;
+    padding: 0;
+    
+   }
+   #about{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    
+   }
+   
+   .about .content ul li{
+    font-size: 13px;
+   }
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -1613,8 +1630,26 @@ h4 .span_color{
   color: #52D3D8;
 }
 
+#extend-links{
+ padding-left: 30px;
+}
+
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+  #footer .footer-top .footer-links {
+    margin-bottom: 10px;
+  }
+  .footer-links{
+    font-size: 13px;
+    
+  }
+  .footer-links .heading-links{
+    font-size: 15px!important;
+  }
+  #extend-links{
+    padding-left: 20px;
+    
+   }
 }
